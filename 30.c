@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+void main(void) {
 	int sh,sm,eh,em; 
 	int r1,r2,res,min,sec;
 	printf("enter the start time hours and minutes");
