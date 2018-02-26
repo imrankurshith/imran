@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main() {
+int main() 
+{
     char a[100];
     int i,count=0;
     scanf("%s",a);
