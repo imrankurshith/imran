@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 int count=0;
 char word[100];
