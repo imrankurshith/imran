@@ -1,7 +1,5 @@
-
 #include <stdio.h>
-
-int main()
+void main()
 {
 int count=0;
 char word[100];
@@ -14,3 +12,5 @@ gets[words];
 printf("/n enter the word %d",word);
 return(0);
 }
+
+
