@@ -9,9 +9,8 @@ void main()
 	{	
          if(ispunct(s[i]))
          {
-         	count++;
+          count++;
          }
-
 	}
 	printf("%d",count);
 	return 0;
