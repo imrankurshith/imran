@@ -1,16 +1,16 @@
 #include <stdio.h>
-void main()
-{
-int count=0;
-char word[100];
-printf("enter the word:");
-gets[words];
-{
- if(words==0);
- word++;
-}
-printf("/n enter the word %d",word);
-return(0);
+#include<string.h>
+void main() {
+	char a[50];
+	int i,count=1;
+	gets(a);
+	for(i=0;a[i]!='\0';i++)
+	{
+		if(a[i] == ' ')
+		count++;	
+	}
+	printf("%d",count);
+	return 0;
 }
 
 
