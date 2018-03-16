@@ -1,22 +1,16 @@
-#include <stdio.h>
-#include<string.h>
+#include<stdio.h>
 void main()
 {
-   char s[100];
-   int l,count=1,i;
-   scanf("%s",s);
-   l=strlen(s);
-   for(i=0;i<l;i++)
-   {
-       if(s[i]==' ')
-       {
-       count++;
-       printf("%d",count);
-       }
-       else
-       printf("%d",count);
-   }
-    return 0;
+char str[50],i,c=0;
+printf("enter the word");
+gets(str);
+for(i=0;str[i]!='\0';i++)
+if(str[i]==' ')
+{
+c++;
+}
+}
+printf("%d",c+1);
 }
 
 
